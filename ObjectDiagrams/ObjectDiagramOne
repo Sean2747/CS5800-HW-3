@@ -1,0 +1,27 @@
+@startuml
+
+object Ship0{
+shipName = "Titanic"
+yearBuilt = "March31st,1909"
+}
+
+object Ship1{
+shipName = "MVGemini"
+yearBuilt = "May30th,1991"
+maxNumberPassengers = 100
+}
+
+object Ship2{
+shipName = "EverGiven"
+yearBuilt = "September25th,2018"
+cargoCapacityInTonnage = 220940
+}
+
+Ship0 --> Ship
+Ship1 --> CruiseShip
+Ship2 --> CargoShip
+
+Ship1 --> Ship
+Ship2 --> Ship
+
+@enduml
