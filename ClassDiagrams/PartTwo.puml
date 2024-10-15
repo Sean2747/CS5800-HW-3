@@ -3,12 +3,12 @@
 class Ship{
 -shipName: String
 -yearBuilt: String
-+ getShipName(): String
-+ setShipName(shipName: String): void
-+ getYearBuilt(): String
-+ setYearBuilt(yearBuilt: String): void
-+ toString(): String
-+ printShip(): void
++getShipName(): String
++setShipName(shipName: String): void
++getYearBuilt(): String
++setYearBuilt(yearBuilt: String): void
++toString(): String
++printShip(): void
 }
 
 class CargoShip{
