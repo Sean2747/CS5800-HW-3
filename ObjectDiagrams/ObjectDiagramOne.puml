@@ -20,7 +20,6 @@ cargoCapacityInTonnage = 220940
 Ship0 --> Ship
 Ship1 --> CruiseShip
 Ship2 --> CargoShip
-
 Ship1 --> Ship
 Ship2 --> Ship
 
